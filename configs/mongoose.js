@@ -5,7 +5,7 @@ const DB_NAME = "test";
 
 //default port for mongodb is 27017
 // const connectionURI = `mongodb://127.0.0.1:27017/${DB_NAME}`;
-const connectionURI =  `mongodb://127.0.0.1:27017/${DB_NAME}`;
+const connectionURI = "mongodb://0.0.0.0:27017/";
 
 //connecting mongoose with the given uri,in this case it is localhost
 mongoose.connect(connectionURI, {
